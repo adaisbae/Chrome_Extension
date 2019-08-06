@@ -25,3 +25,4 @@ function newQuote(){
 //let button = document.querySelector('button')
 //button.addEventListener('click', newQuote());
 
+window.addEventListener('load', newQuote());
