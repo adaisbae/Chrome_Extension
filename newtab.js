@@ -15,3 +15,13 @@ const quotes = [
 'Accomplice? I\'m gonna tell them the whole thing was your idea! - Bruce Wayne',
 'Sometimes…the truth isn\'t good enough. Sometimes people deserve more. Sometimes people deserve to have their faith rewarded. - Batman',
 ]
+
+
+function newQuote(){
+    let randomNumber = Math.floor(Math.random() * (quotes.length));
+    document.querySelector('.display').innerHTML = quotes[randomNumber];
+}
+
+//let button = document.querySelector('button')
+//button.addEventListener('click', newQuote());
+
