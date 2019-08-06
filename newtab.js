@@ -22,7 +22,7 @@ function newQuote(){
     document.querySelector('.display').innerHTML = quotes[randomNumber];
 }
 
-//let button = document.querySelector('button')
-//button.addEventListener('click', newQuote());
+let button = document.querySelector('button');
+button.addEventListener('click', newQuote());
 
 window.addEventListener('load', newQuote());

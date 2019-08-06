@@ -57,7 +57,6 @@ table {
   
   html, body {
     font-family: 'Montserrat', sans-serif;
-    position: fixed;
   }
   
   h1, h2, h3, h4, h5 {
@@ -106,6 +105,13 @@ table {
       border-radius: 6px;
       border: none;
       font-size: 2rem;
+      background-color: #152E81;
+      color: #ACB2C6;
+  }
+
+  button:hover{
+    background-color: #ACB2C6;
+    color: #152E81;
   }
 
   footer{

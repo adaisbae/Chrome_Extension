@@ -1,7 +1,7 @@
 ﻿{
     "manifest_version": 2,
-    "name": "Launcher",
-    "description": "Quick launch for social media",
+    "name": "Dark Knight Enthusiast",
+    "description": "Generates random quotes from the Dark Knight movie",
     "version": "1.0.0",
     "author": "Melissa Jones @melissathedev1",
     "icons": {"128": "bat-icon-128.png"},
@@ -12,5 +12,6 @@
     "chrome_url_overrides": {
         "newtab": "newtab.html"
     },
+    "scripts": ["newtab.js"],
     "permissions": ["activeTab"]
 }
