@@ -56,11 +56,11 @@ table {
   }
   
   html, body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
   }
   
   h1, h2, h3, h4, h5 {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Montserrat', sans-serif;
   }
   
   img {
@@ -69,7 +69,29 @@ table {
   }
   
   .container {
-    max-width: 800px;
+    max-width: 1000px;
     width: 100%;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1{
+      font-size: 4rem;
+      margin-bottom: 20px;
+  }
+
+  .display{
+      margin-bottom: 20px;
+      font-size: 3rem;
+  }
+
+  button{
+      width: 25%;
+      padding: 10px 20px;
+      border-radius: 6px;
+      border: none;
+      font-size: 2rem;
   }
