@@ -57,6 +57,7 @@ table {
   
   html, body {
     font-family: 'Montserrat', sans-serif;
+    position: fixed;
   }
   
   h1, h2, h3, h4, h5 {
@@ -67,6 +68,14 @@ table {
     max-width: 100%;
     height: auto;
   }
+
+  html{
+    background: url("images/tunnel-light.jpg") no-repeat center center fixed; 
+    background-color: #cccccc; 
+    background-size: cover; 
+    height: 100%;
+    margin-top: 500px;
+  }
   
   .container {
     max-width: 1000px;
@@ -76,16 +85,19 @@ table {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
   }
 
   h1{
       font-size: 4rem;
-      margin-bottom: 20px;
+      margin-bottom: 50px;
+      color: white;
   }
 
   .display{
-      margin-bottom: 20px;
+      margin-bottom: 50px;
       font-size: 3rem;
+      color: white;
   }
 
   button{
@@ -94,4 +106,10 @@ table {
       border-radius: 6px;
       border: none;
       font-size: 2rem;
+  }
+
+  footer{
+      margin-top: 50px;
+      font-size: 2rem;
+      color: white;
   }
